@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-import './styles/Events.css';
+import './styles/SideNav.css';
 
 export default class extends Component {
   // static propTypes = {}
@@ -12,9 +12,9 @@ export default class extends Component {
   render() {
     const { className, ...props } = this.props;
     return (
-      <div className={classnames('events', className)}>
+      <div className={classnames('videos', className)} >
         <h1>
-          EVENTS
+          VIDEOS
         </h1>
       </div>
     );

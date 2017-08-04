@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-import './styles/Videos.css';
+import './styles/Cameras.css';
 
 export default class extends Component {
   // static propTypes = {}
@@ -12,7 +12,7 @@ export default class extends Component {
   render() {
     const { className, ...props } = this.props;
     return (
-      <div className={classnames('videos', className)} {...props}>
+      <div className={classnames('videos', className)} >
         <h1>
           VIDEOS
         </h1>
