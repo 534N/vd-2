@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "auth0-lock": "^10.19.0",
     "classnames": "^2.2.5",
     "connect-hls.js": "^1.1.7",
     "js-cookie": "^2.1.4",
@@ -10,9 +11,12 @@
     "node-sass": "^4.5.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
     "react-router": "^4.1.2",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "1.0.10"
+    "react-scripts": "1.0.10",
+    "redux": "^3.7.2",
+    "solink-js": "^1.0.32"
   },
   "scripts": {
     "build-css": "node-sass src/ -o src/",

@@ -1,9 +1,15 @@
+@import '_variables'
+@import '../mixins/_transitions'
+@import '../mixins/_devices'
+
 html,
 body
   width: 100%
   height: 100%
+  margin: 0
   font-family: 'Roboto', sans-serif
   font-weight: 300
+  background: #fff
 
 div
   box-sizing: border-box
@@ -14,19 +20,12 @@ li
 #root
   width: 100%
   height: 100%
-
-
-
-  #root-left
-    flex: 1
-    height: 100%
-    .side-nav
-      width: 60px
-      height: 60px
-      .zmdi
-        font-size: 2em
-      text
-        font-size: 12px
-  #root-right
-    flex: 11
-    height: 100%
+#root-right
+  width: calc(100% - #{$leftNavWidth})
+  height: 100%
+#root-right-top-panel
+  height: $rightTopPanelheight
+  border-bottom: 1px solid $borderColor
+#root-right-bottom-panel
+  height: $rightBottomPanelheight
+  border-top: 1px solid $borderColor

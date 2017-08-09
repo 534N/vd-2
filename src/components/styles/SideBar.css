@@ -1,0 +1,25 @@
+#side-bar {
+  width: 70px;
+  height: 100%;
+  background: #0088cc; }
+  #side-bar .side-nav {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    will-change: transform;
+    opacity: 0.7;
+    transform: scale(0.8);
+    transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; }
+    #side-bar .side-nav:hover {
+      opacity: 0.8;
+      transform: scale(0.9);
+      transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; }
+    #side-bar .side-nav.active {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 500ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; }
+    #side-bar .side-nav .zmdi {
+      font-size: 2em; }
+    #side-bar .side-nav text {
+      font-size: 12px;
+      display: none; }

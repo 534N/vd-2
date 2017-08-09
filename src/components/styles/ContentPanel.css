@@ -1,0 +1,4 @@
+#content-panel {
+  width: calc(100% - 70px);
+  height: calc(100% - 70px - 100px);
+  padding: 1em; }

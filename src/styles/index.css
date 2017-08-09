@@ -2,8 +2,10 @@ html,
 body {
   width: 100%;
   height: 100%;
+  margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  background: #fff; }
 
 div {
   box-sizing: border-box; }
@@ -18,20 +20,14 @@ li {
   width: 100%;
   height: 100%; }
 
-#root #root-left {
-  flex: 1;
+#root-right {
+  width: calc(100% - 70px);
   height: 100%; }
 
-#root #root-left .side-nav {
-  width: 60px;
-  height: 60px; }
+#root-right-top-panel {
+  height: 70px;
+  border-bottom: 1px solid #e0e0e0; }
 
-#root #root-left .side-nav .zmdi {
-  font-size: 2em; }
-
-#root #root-left .side-nav text {
-  font-size: 12px; }
-
-#root #root-right {
-  flex: 11;
-  height: 100%; }
+#root-right-bottom-panel {
+  height: 100px;
+  border-top: 1px solid #e0e0e0; }

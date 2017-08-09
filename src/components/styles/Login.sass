@@ -1,0 +1,47 @@
+@import '../../styles/_variables'
+
+#login
+  width: 100%
+  height: 100%
+  background: #0088cc
+  .auth0-lock
+    &.auth0-lock
+      font-family: Roboto, sans-serif
+      font-size: 1.1em
+      .auth0-lock-widget
+        width: 500px !important
+        border-radius: 0 !important
+        box-shadow: 0 5px 27px rgba(0,0,0,0.3)
+      .auth0-lock-cred-pane
+        border-radius: 0 !important
+      .auth0-lock-submit
+        border-radius: 0 !important
+        opacity: 0.8
+        &:hover
+          opacity: 1
+      .auth0-lock-header-bg
+        background: #fff !important
+      .auth0-lock-header-logo
+        height: 50px !important
+        margin: 18px 0 11px !important
+      .auth0-lock-name
+        display: none
+      .auth0-lock-input-wrap
+        .auth0-lock-input
+          font-size: 15px !important
+          
+      .auth0-lock-form
+        .auth0-lock-alternative
+          .auth0-lock-alternative-link
+            font-size: 15px !important
+            color: rgba(0,0,0,0.5) !important
+      .auth0-lock-header-bg
+        .auth0-lock-header-bg-solid
+          display: none
+
+
+    .auth0-lock-last-login-pane
+      .auth0-lock-social-button[data-provider="auth0"]
+        .auth0-lock-social-button-text
+          font-size: 15px !important
+          font-weight: 100

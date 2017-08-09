@@ -1,6 +1,8 @@
-// src/components/App/index.js
 import React, { Component } from 'react';
-import classnames from 'classnames';
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+
+import Login from './Login';
+import AuthenticatedApp from './AuthenticatedApp';
 
 import './styles/App.css';
 
@@ -10,15 +12,16 @@ class App extends Component {
   // state = {}
 
   render() {
-    const { className, ...props } = this.props;
+    const { routes, ...props } = this.props;
+
     return (
-      <div className={classnames('App', className)} >
-        <div className="App-header">
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          APP
-        </p>
+      <div id='app'>
+        <BrowserRouter>
+          <Switch>
+            <Route path='/Login' component={Login} />
+            <AuthenticatedApp />
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }

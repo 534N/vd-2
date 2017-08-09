@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?dj5p51");
-  src: url("fonts/icomoon.eot?dj5p51#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?dj5p51") format("truetype"), url("fonts/icomoon.woff?dj5p51") format("woff"), url("fonts/icomoon.svg?dj5p51#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?k293az");
+  src: url("fonts/icomoon.eot?k293az#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?k293az") format("truetype"), url("fonts/icomoon.woff?k293az") format("woff"), url("fonts/icomoon.svg?k293az#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -18,8 +18,125 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.zmdi-home:before {
+.zmdi-solink-s:before {
   content: "\e91c"; }
+
+.zmdi-share-raw-512:before {
+  content: "\e91b"; }
+
+.zmdi-live-video:before {
+  content: "\e900"; }
+
+.zmdi-last-event:before {
+  content: "\e60d"; }
+
+.zmdi-next-event:before {
+  content: "\e60e"; }
+
+.zmdi-delete:before {
+  content: "\e60c"; }
+
+.zmdi-solink:before {
+  content: "\e60b"; }
+
+.zmdi-four-up-close:before {
+  content: "\e605"; }
+
+.zmdi-four-up:before {
+  content: "\e609"; }
+
+.zmdi-edit-camera:before {
+  content: "\e60a"; }
+
+.zmdi-no-recording:before {
+  content: "\e610"; }
+
+.zmdi-filter-list:before {
+  content: "\e600"; }
+
+.zmdi-minimize:before {
+  content: "\e601"; }
+
+.zmdi-motion:before {
+  content: "\e602"; }
+
+.zmdi-no-recordning:before {
+  content: "\e603"; }
+
+.zmdi-replay-10:before {
+  content: "\e604"; }
+
+.zmdi-add-camera:before {
+  content: "\e606"; }
+
+.zmdi-full-screen:before {
+  content: "\e607"; }
+
+.zmdi-add-bookmark:before {
+  content: "\e608"; }
+
+.zmdi-close_circle:before {
+  content: "\f134"; }
+
+.zmdi-email:before {
+  content: "\f15a"; }
+
+.zmdi-uniF19B:before {
+  content: "\f19b"; }
+
+.zmdi-power:before {
+  content: "\f1af"; }
+
+.zmdi-warning:before {
+  content: "\f1f0"; }
+
+.zmdi-stop:before {
+  content: "\f1f2"; }
+
+.zmdi-about:before {
+  content: "\f1f6"; }
+
+.zmdi-plus:before {
+  content: "\f1ff"; }
+
+.zmdi-account:before {
+  content: "\f207"; }
+
+.zmdi-users:before {
+  content: "\f20d"; }
+
+.zmdi-uniF220:before {
+  content: "\f220"; }
+
+.zmdi-radio-unselected:before {
+  content: "\f26c"; }
+
+.zmdi-radio-selected:before {
+  content: "\f26f"; }
+
+.zmdi-caret-down:before {
+  content: "\f2f2"; }
+
+.zmdi-uniF2F4:before {
+  content: "\f2f4"; }
+
+.zmdi-caret-right:before {
+  content: "\f2f6"; }
+
+.zmdi-uniF2F8:before {
+  content: "\f2f8"; }
+
+.zmdi-uniF3B4:before {
+  content: "\f3b4"; }
+
+.zmdi-uniF3B5:before {
+  content: "\f3b5"; }
+
+.zmdi-home:before {
+  content: "\e88a"; }
+
+.zmdi-remove:before {
+  content: "\e15b"; }
 
 .zmdi-check:before {
   content: "\e919"; }
@@ -201,117 +318,6 @@
 .zmdi-grid:before {
   content: "\e302"; }
 
-.zmdi-share-raw-512:before {
-  content: "\e91b"; }
-
-.zmdi-live-video:before {
-  content: "\e900"; }
-
-.zmdi-last-event:before {
-  content: "\e60d"; }
-
-.zmdi-next-event:before {
-  content: "\e60e"; }
-
-.zmdi-delete:before {
-  content: "\e60c"; }
-
-.zmdi-solink:before {
-  content: "\e60b"; }
-
-.zmdi-four-up-close:before {
-  content: "\e605"; }
-
-.zmdi-four-up:before {
-  content: "\e609"; }
-
-.zmdi-edit-camera:before {
-  content: "\e60a"; }
-
-.zmdi-no-recording:before {
-  content: "\e610"; }
-
-.zmdi-filter-list:before {
-  content: "\e600"; }
-
-.zmdi-minimize:before {
-  content: "\e601"; }
-
-.zmdi-motion:before {
-  content: "\e602"; }
-
-.zmdi-no-recordning:before {
-  content: "\e603"; }
-
-.zmdi-replay-10:before {
-  content: "\e604"; }
-
-.zmdi-add-camera:before {
-  content: "\e606"; }
-
-.zmdi-full-screen:before {
-  content: "\e607"; }
-
-.zmdi-add-bookmark:before {
-  content: "\e608"; }
-
-.zmdi-close_circle:before {
-  content: "\f134"; }
-
-.zmdi-email:before {
-  content: "\f15a"; }
-
-.zmdi-uniF19B:before {
-  content: "\f19b"; }
-
-.zmdi-power:before {
-  content: "\f1af"; }
-
-.zmdi-warning:before {
-  content: "\f1f0"; }
-
-.zmdi-stop:before {
-  content: "\f1f2"; }
-
-.zmdi-about:before {
-  content: "\f1f6"; }
-
-.zmdi-plus:before {
-  content: "\f1ff"; }
-
-.zmdi-account:before {
-  content: "\f207"; }
-
-.zmdi-users:before {
-  content: "\f20d"; }
-
-.zmdi-uniF220:before {
-  content: "\f220"; }
-
-.zmdi-radio-unselected:before {
-  content: "\f26c"; }
-
-.zmdi-radio-selected:before {
-  content: "\f26f"; }
-
-.zmdi-caret-down:before {
-  content: "\f2f2"; }
-
-.zmdi-uniF2F4:before {
-  content: "\f2f4"; }
-
-.zmdi-caret-right:before {
-  content: "\f2f6"; }
-
-.zmdi-uniF2F8:before {
-  content: "\f2f8"; }
-
-.zmdi-uniF3B4:before {
-  content: "\f3b4"; }
-
-.zmdi-uniF3B5:before {
-  content: "\f3b5"; }
-
 .zmdi-download:before {
   content: "\e91a"; }
 
@@ -335,93 +341,6 @@
 
 .zmdi-link:before {
   content: "\e901"; }
-
-.zmdi-language:before {
-  content: "\e90d"; }
-
-.zmdi-save:before {
-  content: "\e90e"; }
-
-.zmdi-status:before {
-  content: "\e061"; }
-
-.zmdi-photo_camera:before {
-  content: "\e90c"; }
-
-.zmdi-cloud_done:before {
-  content: "\e2bf"; }
-
-.zmdi-cloud_queue:before {
-  content: "\e2c2"; }
-
-.zmdi-explore:before {
-  content: "\e87a"; }
-
-.zmdi-first_page:before {
-  content: "\e5dc"; }
-
-.zmdi-keyboard_arrow_down:before {
-  content: "\e313"; }
-
-.zmdi-keyboard_arrow_up:before {
-  content: "\e316"; }
-
-.zmdi-last_page:before {
-  content: "\e5dd"; }
-
-.zmdi-receipt:before {
-  content: "\e8b0"; }
-
-.zmdi-schedule:before {
-  content: "\e8b5"; }
-
-.zmdi-trash:before {
-  content: "\e90a"; }
-
-.zmdi-add:before {
-  content: "\e905"; }
-
-.zmdi-cloud_upload:before {
-  content: "\e2c3"; }
-
-.zmdi-cloud_download:before {
-  content: "\e2c0"; }
-
-.zmdi-mode_edit:before {
-  content: "\e254"; }
-
-.zmdi-my_location:before {
-  content: "\e55c"; }
-
-.zmdi-star:before {
-  content: "\e838"; }
-
-.zmdi-play_for_work:before {
-  content: "\e906"; }
-
-.zmdi-send:before {
-  content: "\e163"; }
-
-.zmdi-star_border:before {
-  content: "\e83a"; }
-
-.zmdi-alert-circle:before {
-  content: "\e000"; }
-
-.zmdi-equalizer:before {
-  content: "\e007"; }
-
-.zmdi-pause:before {
-  content: "\e018"; }
-
-.zmdi-play:before {
-  content: "\e01b"; }
-
-.zmdi-play_circle_outline:before {
-  content: "\e01d"; }
-
-.zmdi-replay:before {
-  content: "\e025"; }
 
 .zmdi-line-graph:before {
   content: "\e912"; }
